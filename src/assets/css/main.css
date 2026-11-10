@@ -59,7 +59,7 @@
   color-scheme: light;
 
   /* Background & surfaces */
-  --background: #fdf8ff;
+  --background: #fbf5ff;
   --foreground: oklch(0.23 0.025 45);
 
   --card: oklch(1 0 0);

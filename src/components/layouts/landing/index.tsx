@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import { Navbar } from "./navbar";
+import { SiteFooter } from "./footer";
 
 const LayoutLanding = () => {
   return (
@@ -8,6 +9,7 @@ const LayoutLanding = () => {
       <div className="py-16">
         <Outlet />
       </div>
+      <SiteFooter />
     </main>
   );
 };

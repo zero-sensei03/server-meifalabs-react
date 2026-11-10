@@ -10,11 +10,6 @@ export const NavbarMenu = [
     url: "/#feature",
   },
   {
-    key: "pricing",
-    name: "Pricing",
-    url: "/pricing",
-  },
-  {
     key: "contact",
     name: "Contact",
     url: "/contact",
