@@ -69,7 +69,7 @@ export const HomeModuleComponent = ({ limit }: { limit: number }) => {
   const { data, isLoading, error } = useGetModulePublic();
 
   const CATEGORY_MODULE_FETCH = useMemo(() => {
-    return data?.data.slice(limit) || [];
+    return data?.data.slice(0, limit) || [];
   }, [data, limit]);
   return isLoading ? (
     <ComponentLoading />

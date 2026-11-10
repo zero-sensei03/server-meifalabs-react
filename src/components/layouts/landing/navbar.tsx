@@ -43,7 +43,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-white shadow-sm py-2 px-2 fixed w-full">
+    <nav className="bg-white shadow-sm py-2 px-2 fixed w-full z-50">
       <div className="max-w-350 mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
